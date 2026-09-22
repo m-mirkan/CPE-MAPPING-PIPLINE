@@ -1,0 +1,494 @@
+[
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:7655:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:7665:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_2555:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_3055:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_3555:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_4055:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_6055:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_5055:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_c4500:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_c5500:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_6000:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_5000:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:arista:7500e:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_c2003:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_c2503:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-16:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 48,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-32:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 48,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-4:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 48,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-8:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 48,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:f5:firepass_4100:5.5.2:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 9,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:fujixerox:apeosport_c5570:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_4345_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_9040_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_9050_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m4345_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m3027_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:color_laserjet_4730_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m3035_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m5025_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m5035_mfp:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 56,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_200:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 32,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_2500:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_3000:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_4000:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_3500:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5135:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5150:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_c306:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:galaxy_note_4:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:enterasys:dragon:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_c6000:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5655:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:versalink_b605:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:versalink_b615:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:lg:v30:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:lg:g6:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:lg:v35:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:lg:g7:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:232:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:238:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:245:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:255:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:265:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:275:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:232:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:238:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:245:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:255:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:265:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:275:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 20,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_c4503:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_c5503:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:im_c300:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:ricoh:mp_c407:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4250_ss031a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4250_ss030a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4300_ss032a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k7500_ss040a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k7500_ss039a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_sw185a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_ss022a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_st717a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8230_ss021a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5755:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:gemalto:safenet_luna_pcie:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:oberthur:id-one_cosmo:*:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:scx-5737_sw045a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:scx-5737_sw046a:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 14,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:lexmark:mx725:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 8,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:cisco:1240:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 16,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:cisco:4400_wireless_lan_controller:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 16,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:cisco:catalyst_6500:-:*:*:*:*:*:*:*",
+    "valid_input": true,
+    "candidates_tried": 16,
+    "note": "No candidate Firmware/OS CPE could be confirmed against the local dictionary (including the title-text fallback)."
+  }
+]

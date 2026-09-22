@@ -1,0 +1,4514 @@
+{
+  "summary": {
+    "hardware_cpes_attempted_by_pipeline": 257,
+    "hardware_cpes_with_groundtruth": 201,
+    "hardware_cpes_with_groundtruth_and_a_prediction": 167,
+    "avg_exact_precision": 0.953,
+    "avg_loose_precision": 0.963,
+    "_precision_note": "Precision is averaged only over hardware CPEs where the pipeline made at least one confirmed prediction ",
+    "avg_exact_recall": 0.66,
+    "avg_loose_recall": 0.732,
+    "_recall_note": " Averaged over EVERY hardware CPE that has ground truth -- including ones the pipeline left completely unmatched. A hardware CPE with real ground truth that the pipeline never answered counts as a recall miss (0.0) here, same as a wrong answer would. This is the correct number for 'of everything true, how much did the pipeline actually find?'"
+  },
+  "per_entry": [
+    {
+      "hardware_cpe": "cpe:2.3:h:apple:ipad:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:arista:7500e:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 5,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:avocent:kvm:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-16:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-32:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-4:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:brocade:netiron_mlxe-8:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:cisco:1240:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 93,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:cisco:4400_wireless_lan_controller:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 46,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:cisco:catalyst_6500:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 2,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:cisco:firepower_4100:-:*:*:*:*:*:*:*",
+      "predicted_count": 21,
+      "truth_count": 5,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.16.4.92:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.135:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.76:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.82:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.90:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.13.0.243:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.14.1.131:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.3.1.230:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.6.1.259:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.6.1.264:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.1:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.3.1.73:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.4.1.101:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.4:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:3.1:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:3.2:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:4.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:6.1\\(3\\)s2:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:r231:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "cisco:adaptive_security_appliance_software",
+        "cisco:firepower_extensible_operating_system",
+        "cisco:fx-os",
+        "cisco:fxos"
+      ],
+      "exact_precision": 0.952,
+      "exact_recall": 0.8,
+      "loose_precision": 0.8,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:cisco:firepower_9300:-:*:*:*:*:*:*:*",
+      "predicted_count": 25,
+      "truth_count": 28,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.16.4.92:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.135:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.76:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.82:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.18.4.90:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:2.4\\(1.216\\):*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:2.4\\(2.54\\):*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:r114:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:r241:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.13.0.243:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.14.1.131:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.3.1.230:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.6.1.259:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:2.6.1.264:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.1:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.3.1.73:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.3:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.4.1.101:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:2.4:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:3.1:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:3.2:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:4.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:6.1\\(3\\)s2:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:r231:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:cisco:adaptive_security_appliance_software:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:2.4\\(1.216\\):*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:2.4\\(2.54\\):*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:r114:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_9300_firmware:r241:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:firepower_extensible_operating_system:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fx-os:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:cisco:fxos:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "cisco:adaptive_security_appliance_software",
+        "cisco:firepower_9300_firmware",
+        "cisco:firepower_extensible_operating_system",
+        "cisco:fx-os",
+        "cisco:fxos"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.321,
+      "loose_precision": 1.0,
+      "loose_recall": 0.714
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:enterasys:dragon:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:f5:firepass_4100:5.5.2:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:fujifilm:apeosport-vii_c7788:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:fujifilm:apeosport-vii_c7788_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:fujifilm:apeosport-vii_c7788_firmware:1.60.1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:fujifilm:apeosport-vii_c7788_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "fujifilm:apeosport-vii_c7788_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:fujifilm:docucentre-vii_c7788:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:fujifilm:docucentre-vii_c7788_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:fujifilm:docucentre-vii_c7788_firmware:1.60.1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:fujifilm:docucentre-vii_c7788_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "fujifilm:docucentre-vii_c7788_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:fujixerox:apeosport_c5570:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:fujixerox:docucentre-iv_c2263:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:fujixerox:docucentre-iv_c2263_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:fujixerox:docucentre-iv_c2263_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "fujixerox:docucentre-iv_c2263_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:gemalto:safenet_luna_pcie:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:color_laserjet_4730_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:color_laserjet_enterprise_m652:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:hp:color_laserjet_enterprise_m652_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:color_laserjet_enterprise_m652_firmware:2407081_000586:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:hp:color_laserjet_enterprise_m652_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "hp:color_laserjet_enterprise_m652_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:integrated_lights-out_4:-:*:*:*:*:*:*:*",
+      "predicted_count": 7,
+      "truth_count": 11,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:1.51:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:2.30:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:2.55:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:2.60:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:2.61b:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:hp:integrated_lights-out_4_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "hp:integrated_lights-out_4_firmware"
+      ],
+      "exact_precision": 0.714,
+      "exact_recall": 0.091,
+      "loose_precision": 0.5,
+      "loose_recall": 0.25
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_4345_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_9040_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_9050_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_enterprise_m607:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:hp:laserjet_enterprise_m607_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:laserjet_enterprise_m607_firmware:2407081_000596:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:hp:laserjet_enterprise_m607_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "hp:laserjet_enterprise_m607_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_m3027_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_m3035_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_m4345_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_m5025_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_m5035_mfp:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:laserjet_managed_e60055:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:hp:laserjet_managed_e60055_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:laserjet_managed_e60055_firmware:2407150_040194:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:hp:laserjet_managed_e60055_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "hp:laserjet_managed_e60055_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:pagewide_enterprise_color_556:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:hp:pagewide_enterprise_color_556_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:pagewide_enterprise_color_556_firmware:2309010_581412:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:hp:pagewide_enterprise_color_556_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "hp:pagewide_enterprise_color_556_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:hp:pagewide_managed_color_e55650:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:hp:pagewide_managed_color_e55650_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:pagewide_managed_color_e55650_firmware:2309010_581412:*:*:*:*:*:*:*",
+        "cpe:2.3:o:hp:pagewide_managed_color_e55650_firmware:2407081_000598:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:hp:pagewide_managed_color_e55650_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "hp:pagewide_managed_color_e55650_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:cloudengine_12800:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 35,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r003c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r003c10spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r005c00spc200:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r005c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r005c10hp0001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c10spc900:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r003c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r003c10spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r005c00spc200:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r005c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v100r005c10hp0001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_12800_firmware:v200r019c10spc900:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:cloudengine_12800_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.286,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:cloudengine_5800:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 18,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r019c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r020c00spc600:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r019c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_5800_firmware:v200r020c00spc600:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:cloudengine_5800",
+        "huawei:cloudengine_5800_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.556,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:cloudengine_6800:-:*:*:*:*:*:*:*",
+      "predicted_count": 8,
+      "truth_count": 17,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r005c20spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r019c10spc900:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r020c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v300r020c00spc200:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r005c20spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r019c10spc900:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v200r020c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_6800_firmware:v300r020c00spc200:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:cloudengine_6800_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.471,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:cloudengine_7800:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 12,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r019c00spc800:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r002c50spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r003c00spc810:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r005c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r005c10spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_7800_firmware:v200r019c00spc800:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:cloudengine_7800_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.417,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:cloudengine_8800:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:cloudengine_8800_firmware:v100r006c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_8800_firmware:v200r001c00:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:cloudengine_8800_firmware:v100r006c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:cloudengine_8800_firmware:v200r001c00:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:cloudengine_8800_firmware"
+      ],
+      "exact_precision": 0.667,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:fusionsphere_openstack:-:*:*:*:*:*:*:*",
+      "predicted_count": 6,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:fusionsphere_openstack_firmware:v100r006c00spc102\\(nfv\\):*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:fusionsphere_openstack_firmware:v100r006c00spc102\\(nfv\\):*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:fusionsphere_openstack_firmware"
+      ],
+      "exact_precision": 0.167,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:ne5000e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:ne5000e_firmware:v800r006c00:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:ne5000e_firmware:v800r006c00:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:ne5000e_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s2300:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 24,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s2300_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v100r006c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c00spc300t:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c02:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r005c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r005c01:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r008c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r009c00:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s2300_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v100r006c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c00spc300t:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c02:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r003c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r005c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r005c01:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r008c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2300_firmware:v200r009c00:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s2300_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.417,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s2700:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 32,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s2700_firmware:v100r005c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r003c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r011c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r012c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r013c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r019c00spc500:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s2700_firmware:v100r005c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r003c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r011c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r012c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r013c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s2700_firmware:v200r019c00spc500:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s2700_firmware"
+      ],
+      "exact_precision": 0.9,
+      "exact_recall": 0.281,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s5300:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 38,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s5300_firmware:v100r006c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v100r006c01spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v100r006c03:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r005c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r005cp0001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r006c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r009c00:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s5300_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v100r006c00spc800:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v100r006c01spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v100r006c03:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r006c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5300_firmware:v200r009c00:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s5300_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.237,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s5700:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 49,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s5700_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r005c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r007c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r010c00spc700:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r013c00spc500:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s5700_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r005c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r007c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r010c00spc700:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s5700_firmware:v200r013c00spc500:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s5700_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.224,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s6300:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 29,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s6300_firmware:v200r001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r005c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r005cp0001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r007c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r009c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r010c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r011c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r012c00:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s6300_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r007c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r009c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r010c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r011c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6300_firmware:v200r012c00:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s6300_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.31,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s6700:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 38,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s6700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r006c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r007c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r013c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r019c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v2r11c10:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s6700_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r006c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r007c00:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r013c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s6700_firmware:v200r019c00spc500:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s6700_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.263,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s7700:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 46,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s7700_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r010c00spc700:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r013c00spc500:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s7700_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r010c00spc700:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r011c10spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s7700_firmware:v200r013c00spc500:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s7700_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.239,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s9300:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 36,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s9300_firmware:v100r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v100r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v100r006:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r002c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r006c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r007c00spc500:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s9300_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v100r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v100r003:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v100r006:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r001:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r002:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r002c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r006c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9300_firmware:v200r007c00spc500:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s9300_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.306,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:huawei:s9700:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 38,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:huawei:s9700_firmware:v200r001c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r005:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r007c01b102:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r011c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r011c10spc600:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:huawei:s9700_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r001c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r002c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r003c00spc300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r005:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r005c00spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r007c01b102:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r010c00spc600:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r011c00spc100:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r011c10spc500:*:*:*:*:*:*:*",
+        "cpe:2.3:o:huawei:s9700_firmware:v200r011c10spc600:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "huawei:s9700_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.289,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:acx5448-m:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 62,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:juniper:junos_os_evolved:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:25.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:26.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:26.2:r1:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:juniper:junos_os_evolved:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:24.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:24.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos_os_evolved:24.2:r1:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "juniper:junos_os_evolved"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 0.065,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:ex4600:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 720,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "juniper:junos"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.049,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:qfx5100:-:*:*:*:*:*:*:*",
+      "predicted_count": 10,
+      "truth_count": 598,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:*:d35:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "juniper:junos"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 0.003,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:srx1500:-:*:*:*:*:*:*:*",
+      "predicted_count": 6,
+      "truth_count": 611,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "juniper:junos"
+      ],
+      "exact_precision": 0.833,
+      "exact_recall": 0.072,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:srx345:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 607,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "juniper:junos"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.072,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:srx380:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 603,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s5:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s6:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2-s7:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:23.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2-s4:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.2:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2-s3:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:24.4:r2:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:-:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1-s1:*:*:*:*:*:*",
+        "cpe:2.3:o:juniper:junos:25.4:r1:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "juniper:junos"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.073,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:juniper:srx_series:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 34,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [
+        "juniper:junos"
+      ],
+      "exact_precision": 0.0,
+      "exact_recall": 0.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_200:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_224e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_224e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_224e_firmware:gdr-m1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_224e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_224e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_284e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_284e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_284e_firmware:gdr-m1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_284e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_284e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_308e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_308e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_308e_firmware:gca-x8:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_308e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_308e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_364e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_364e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_364e_firmware:gdr-m1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_364e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_364e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_368e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_368e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_368e_firmware:gca-x8:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_368e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_368e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_4050i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_4050i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_4050i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_4050i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_4050i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_454e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_454e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_454e_firmware:gdr-m1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_454e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_454e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_458e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_458e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_458e_firmware:gca-y1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_458e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_458e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_4750i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_4750i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_4750i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_4750i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_4750i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_554e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_554e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_554e_firmware:gdr-m1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_554e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_554e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_558e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_558e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_558e_firmware:gca-y1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_558e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_558e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_654:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_654_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_654_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_654_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_654_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_654e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_654e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_654e_firmware:gdr-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_654e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_654e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_658e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_658e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_658e_firmware:gca-y1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_658e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_658e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_754:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_754_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_754_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_754_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_754_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_754e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_754e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_754e_firmware:gdr-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_754e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_754e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c224:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c224_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c224_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c224_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c224_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c227i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c227i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c227i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c227i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c227i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c250i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c250i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c250i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c250i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c250i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c257i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c257i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c257i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c257i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c257i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c284:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c284_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c284_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c284_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c284_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c287i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c287i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c287i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c287i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c287i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c300i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c300i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c300i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c300i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c300i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c3350i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c3350i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c3350i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c3350i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c3350i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c360i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c360i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c360i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c360i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c360i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c364:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c364_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c364_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c364_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c364_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c4050i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c4050i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c4050i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c4050i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c4050i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c454:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c454_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c454_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c454_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c454_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c554:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c554_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c554_firmware:gr4-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c554_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c554_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c654e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c654e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c654e_firmware:gdr-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c654e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c654e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c659:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c659_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c659_firmware:gca-y1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c659_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c659_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c750i:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c750i_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c750i_firmware:g00-e9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c750i_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c750i_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c754e:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c754e_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c754e_firmware:gdr-m0:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c754e_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c754e_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_c759:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:konicaminolta:bizhub_c759_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:konicaminolta:bizhub_c759_firmware:gca-y1:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:konicaminolta:bizhub_c759_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "konicaminolta:bizhub_c759_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:kyocera:taskalfa_6550ci:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:kyocera:taskalfa_6550ci_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:kyocera:taskalfa_6550ci_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "kyocera:taskalfa_6550ci_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:kyocera:taskalfa_7550ci:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:kyocera:taskalfa_7550ci_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:kyocera:taskalfa_7550ci_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "kyocera:taskalfa_7550ci_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:c6160:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 3,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:c6160_firmware:cstpp.076.293:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:c6160_firmware:cstpp.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:c6160_firmware:cstpp.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:c6160_firmware:cstpp.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:c6160_firmware:cstpp.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:c6160_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:c6160_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.333,
+      "loose_precision": 1.0,
+      "loose_recall": 0.333
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cs820:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cs820_firmware:cstpp.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs820_firmware:cstpp.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs820_firmware:cstpp.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs820_firmware:cstpp.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs820_firmware:cstpp.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cs820_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cs820_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cs921:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cs921_firmware:cstmh.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs921_firmware:cstmh.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs921_firmware:cstmh.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs921_firmware:cstmh.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs921_firmware:cstmh.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cs921_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cs921_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cs923:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cs923_firmware:cstmh.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs923_firmware:cstmh.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs923_firmware:cstmh.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs923_firmware:cstmh.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cs923_firmware:cstmh.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cs923_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cs923_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cx725h:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cx725h_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cx725h_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cx725h_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cx921:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cx921_firmware:cxtmh.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx921_firmware:cxtmh.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx921_firmware:cxtmh.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx921_firmware:cxtmh.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx921_firmware:cxtmh.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cx921_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cx921_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cx922:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cx922_firmware:cxtmh.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx922_firmware:cxtmh.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx922_firmware:cxtmh.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx922_firmware:cxtmh.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx922_firmware:cxtmh.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cx922_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cx922_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cx923:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cx923_firmware:cxtmh.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx923_firmware:cxtmh.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx923_firmware:cxtmh.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx923_firmware:cxtmh.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx923_firmware:cxtmh.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cx923_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cx923_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:cx924:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:cx924_firmware:cxtmh.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx924_firmware:cxtmh.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx924_firmware:cxtmh.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx924_firmware:cxtmh.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:cx924_firmware:cxtmh.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:cx924_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:cx924_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:ms622:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:ms622_firmware:mstgm.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms622_firmware:mstgm.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms622_firmware:mstgm.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms622_firmware:mstgm.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms622_firmware:mstgm.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:ms622_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:ms622_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:ms822:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:ms822_firmware:msngw.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms822_firmware:mstgw.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms822_firmware:mstgw.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms822_firmware:mstgw.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms822_firmware:mstgw.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:ms822_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:ms822_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:ms826:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:ms826_firmware:mstgw.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms826_firmware:mstgw.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms826_firmware:mstgw.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms826_firmware:mstgw.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:ms826_firmware:mstgw.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:ms826_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:ms826_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx421:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx421_firmware:mxtgm.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx421_firmware:mxtgm.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx421_firmware:mxtgm.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx421_firmware:mxtgm.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx421_firmware:mxtgm.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx421_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx421_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx521:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx521_firmware:mxtgm.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx521_firmware:mxtgm.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx521_firmware:mxtgm.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx521_firmware:mxtgm.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx521_firmware:mxtgm.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx521_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx521_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx522:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx522_firmware:mxtgm.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx522_firmware:mxtgm.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx522_firmware:mxtgm.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx522_firmware:mxtgm.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx522_firmware:mxtgm.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx522_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx522_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx622:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx622_firmware:mxtgm.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx622_firmware:mxtgm.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx622_firmware:mxtgm.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx622_firmware:mxtgm.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx622_firmware:mxtgm.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx622_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx622_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx721:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx721_firmware:mxtgw.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx721_firmware:mxtgw.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx721_firmware:mxtgw.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx721_firmware:mxtgw.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx721_firmware:mxtgw.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx721_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx721_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx722:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx722_firmware:mxtgw.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx722_firmware:mxtgw.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx722_firmware:mxtgw.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx722_firmware:mxtgw.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx722_firmware:mxtgw.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx722_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx722_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx725:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx810:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx810_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx810_firmware:lw80.tu.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx810_firmware:lw80.tu.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx810_firmware:lw80.tu.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx810_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx810_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx811:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx811_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx811_firmware:lw80.tu.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx811_firmware:lw80.tu.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx811_firmware:lw80.tu.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx811_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx811_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx812:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx812_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx812_firmware:lw80.tu.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx812_firmware:lw80.tu.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx812_firmware:lw80.tu.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx812_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx812_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx822:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx822_firmware:mxtgw.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx822_firmware:mxtgw.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx822_firmware:mxtgw.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx822_firmware:mxtgw.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx822_firmware:mxtgw.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx822_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx822_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx826:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx826_firmware:mxtgw.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx826_firmware:mxtgw.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx826_firmware:mxtgw.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx826_firmware:mxtgw.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx826_firmware:mxtgw.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx826_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx826_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx910:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx910_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx910_firmware:lw80.mg.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx910_firmware:lw80.mg.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx910_firmware:lw80.mg.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx910_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx910_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx911:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx911_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx911_firmware:lw80.mg.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx911_firmware:lw80.mg.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx911_firmware:lw80.mg.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx911_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx911_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:mx912:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:mx912_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx912_firmware:lw80.mg.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx912_firmware:lw80.mg.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:mx912_firmware:lw80.mg.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:mx912_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:mx912_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x463:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x463_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x463_firmware:lr.bs.p224a:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x463_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x463_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x464:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x464_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x464_firmware:lr.bs.p224a:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x464_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x464_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x642:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x642_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x642_firmware:lc2.mb.p307cs:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x642_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x642_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x644:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x644_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x644_firmware:lc2.mc.p307as:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x644_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x644_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x651:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x651_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x651_firmware:lr.mn.p224a:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x651_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x651_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x652:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x652_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x652_firmware:lr.mn.p224a:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x652_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x652_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x654:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x654_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x654_firmware:lr.mn.p224a:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x654_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x654_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x734:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x734_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x734_firmware:lr.fl.p224c:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x734_firmware:lr.fl.p510b:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x734_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x734_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:x736:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:x736_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x736_firmware:lr.fl.p224c:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:x736_firmware:lr.fl.p510b:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:x736_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:x736_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xc2132:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xc2132_firmware:lw74.gm7.p268:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc2132_firmware:lw74.gm7.p272:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc2132_firmware:lw80.gm7.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc2132_firmware:lw80.gm7.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc2132_firmware:lw80.gm7.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xc2132_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xc2132_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xc4150:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 4,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xc4150_firmware:cxtat.076.294:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc4150_firmware:cxtat.081.013:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc4150_firmware:cxtat.081.014:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc4150_firmware:cxtat.081.233:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xc4150_firmware:cxtat.081.234:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xc4150_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xc4150_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.25,
+      "loose_precision": 1.0,
+      "loose_recall": 0.333
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xm7155:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xm7155_firmware:lw71.tu.p216:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7155_firmware:lw80.tu.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7155_firmware:lw80.tu.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7155_firmware:lw80.tu.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xm7155_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xm7155_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xm7163:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xm7163_firmware:lw71.tu.p216:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7163_firmware:lw80.tu.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7163_firmware:lw80.tu.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7163_firmware:lw80.tu.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xm7163_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xm7163_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xm7170:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xm7170_firmware:lw71.tu.p216:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7170_firmware:lw80.tu.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7170_firmware:lw80.tu.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm7170_firmware:lw80.tu.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xm7170_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xm7170_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xm9145:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xm9145_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9145_firmware:lw80.mg.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9145_firmware:lw80.mg.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9145_firmware:lw80.mg.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xm9145_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xm9145_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xm9155:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xm9155_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9155_firmware:lw80.mg.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9155_firmware:lw80.mg.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9155_firmware:lw80.mg.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xm9155_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xm9155_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lexmark:xm9165:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:lexmark:xm9165_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9165_firmware:lw80.mg.p210:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9165_firmware:lw80.mg.p245:*:*:*:*:*:*:*",
+        "cpe:2.3:o:lexmark:xm9165_firmware:lw80.mg.p246:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:lexmark:xm9165_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "lexmark:xm9165_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.5,
+      "loose_precision": 1.0,
+      "loose_recall": 0.5
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lg:g6:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lg:g7:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lg:v30:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:lg:v35:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:nuvoton:npct7xx:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:oberthur:id-one_cosmo:*:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:paloaltonetworks:m-200:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:paloaltonetworks:m-600:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:paloaltonetworks:pa-5200:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:paloaltonetworks:pan-os:11.1.10:h28:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:11.1.16:-:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:11.2.13:-:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:12.1.0:-:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:12.1.8:-:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:paloaltonetworks:pan-os:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "paloaltonetworks:pan-os"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:paloaltonetworks:pa-7000:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:paloaltonetworks:pa-800:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:paloaltonetworks:pan-os:11.1.10:h28:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:11.1.16:-:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:11.2.13:-:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:12.1.0:-:*:*:*:*:*:*",
+        "cpe:2.3:o:paloaltonetworks:pan-os:12.1.8:-:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:paloaltonetworks:pan-os:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "paloaltonetworks:pan-os"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:qualcomm:sm8450:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:qualcomm:sm8450_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:qualcomm:sm8450_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "qualcomm:sm8450_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_2500:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_3000:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_3500:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_4000:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_5000:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_6000:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_c300:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_c4500:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_c5500:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:im_c6000:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:m_c2000:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:ricoh:m_c2000_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:ricoh:m_c2000_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "ricoh:m_c2000_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_2555:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_3055:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_3555:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_4055:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_501:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:ricoh:mp_501_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:ricoh:mp_501_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "ricoh:mp_501_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_5055:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_6055:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c2003:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 2,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c2503:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c306:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c307:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:ricoh:mp_c307_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:ricoh:mp_c307_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:ricoh:mp_c307_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "ricoh:mp_c307_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c407:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c4503:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c5503:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:ricoh:mp_c6003:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:ricoh:mp_c6003_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:ricoh:mp_c6003_firmware:*:*:*:*:*:*:*:*",
+        "cpe:2.3:o:ricoh:mp_c6003_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "ricoh:mp_c6003_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:galaxy_a3:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:samsung:galaxy_a3_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:samsung:galaxy_a3_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "samsung:galaxy_a3_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:galaxy_a7:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:samsung:galaxy_a7_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:samsung:galaxy_a7_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "samsung:galaxy_a7_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:galaxy_note_4:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:galaxy_s5:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:samsung:galaxy_s5_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:samsung:galaxy_s5_firmware:2016-12-20:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:samsung:galaxy_s5_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "samsung:galaxy_s5_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8230_ss021a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_ss022a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_st717a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_sw185a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4250_ss030a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4250_ss031a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4300_ss032a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k4350_ss033a:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k7500_ss039a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k7500_ss040a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:multixpress_sl-k7600_ss041a:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:s3nsn4v:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:samsung:s3nsn4v_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:samsung:s3nsn4v_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "samsung:s3nsn4v_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:scx-5737_sw045a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:scx-5737_sw046a:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:ss352c:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:samsung:ss352c_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:samsung:ss352c_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "samsung:ss352c_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:samsung:ss384c:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:samsung:ss384c_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:samsung:ss384c_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "samsung:ss384c_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:bp-30c25:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:bp-30c25_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:bp-30c25_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:bp-30c25_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-2651:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-2651_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-2651_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-2651_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-3061:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-3061_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-3061_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-3061_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-3070n:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-3070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-3070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-3070n_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-3070v:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-3070v_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-3070v_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-3070v_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-3570n:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-3570n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-3570n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-3570n_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-4070n:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-4070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-4070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-4070n_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-5070n:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-5070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-5070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-5070n_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-6051:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-6051_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-6051_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-6051_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-6070n:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-6070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-6070n_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-6070n_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-7081:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-7081_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-7081_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-7081_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-8081:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-8081_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-8081_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-8081_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-b356w:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-b356w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-b356w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-b356w_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-b376w:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-b376w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-b376w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-b376w_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-b456w:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-b456w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-b456w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-b456w_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-b476w:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-b476w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-b476w_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-b476w_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-m3070:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-m3070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-m3070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-m3070_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-m3570:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-m3570_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-m3570_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-m3570_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-m4070:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-m4070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-m4070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-m4070_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-m5070:-:*:*:*:*:*:*:*",
+      "predicted_count": 1,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-m5070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-m5070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-m5070_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:sharp:mx-m6070:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:sharp:mx-m6070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:sharp:mx-m6070_firmware:-:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "sharp:mx-m6070_firmware"
+      ],
+      "exact_precision": 0.5,
+      "exact_recall": 1.0,
+      "loose_precision": 0.5,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:st:st33tphf20i2c:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:st:st33tphf20i2c_firmware:74.5:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20i2c_firmware:74.9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:st:st33tphf20i2c_firmware:74.5:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20i2c_firmware:74.9:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "st:st33tphf20i2c_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:st:st33tphf20spi:-:*:*:*:*:*:*:*",
+      "predicted_count": 4,
+      "truth_count": 4,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.16:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.4:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.8:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.16:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.4:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf20spi_firmware:74.8:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "st:st33tphf20spi_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:st:st33tphf2ei2c:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 2,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:st:st33tphf2ei2c_firmware:73.5:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2ei2c_firmware:73.9:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:st:st33tphf2ei2c_firmware:73.5:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2ei2c_firmware:73.9:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "st:st33tphf2ei2c_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:st:st33tphf2espi:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 6,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:st:st33tphf2espi_firmware:71.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:71.12:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:71.4:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:73.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:73.4:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:st:st33tphf2espi_firmware:71.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:71.12:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:71.4:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:73.0:*:*:*:*:*:*:*",
+        "cpe:2.3:o:st:st33tphf2espi_firmware:73.4:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "st:st33tphf2espi_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 0.833,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:colorqube_8700:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:colorqube_8700_firmware:072.161.009.07200:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:colorqube_8700_firmware:072.162.004.09100:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:colorqube_8700_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:colorqube_8700_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:colorqube_8900:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:colorqube_8900_firmware:072.161.009.07200:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:colorqube_8900_firmware:072.162.004.09100:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:colorqube_8900_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:colorqube_8900_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:colorqube_9301:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:colorqube_9301_firmware:061.180.221.14709:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:colorqube_9301_firmware:072.180.009.07200:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:colorqube_9301_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:colorqube_9301_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:colorqube_9302:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:colorqube_9302_firmware:061.180.221.14709:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:colorqube_9302_firmware:072.180.009.07200:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:colorqube_9302_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:colorqube_9302_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:colorqube_9303:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:colorqube_9303_firmware:061.180.221.14709:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:colorqube_9303_firmware:072.180.009.07200:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:colorqube_9303_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:colorqube_9303_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:versalink_b605:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:versalink_b615:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 1,
+      "exact_hits_predicted": [],
+      "exact_hits_truth_covered": [],
+      "loose_hits_vendor_product": [],
+      "exact_precision": null,
+      "exact_recall": 0.0,
+      "loose_precision": null,
+      "loose_recall": 0.0,
+      "precision_note": "no prediction made for this hardware CPE -- excluded from precision average, still counted as a recall miss above"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:232:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:238:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:245:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:255:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:265:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:275:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:7655:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre:7665:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5135:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5150:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5655:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5755:-:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5845:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_5845_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5845_firmware:073.190.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5845_firmware:073.190.048.15000:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_5845_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_5845_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5855:-:*:*:*:*:*:*:*",
+      "predicted_count": 2,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_5855_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5855_firmware:073.190.000.02300:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_5855_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_5855_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5865:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_5865_firmware:073.190.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5865_firmware:073.190.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5865_firmware:075.190.010.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_5865_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_5865_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5875:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_5875_firmware:073.190.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5875_firmware:073.190.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5875_firmware:075.190.010.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_5875_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_5875_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_5890:-:*:*:*:*:*:*:*",
+      "predicted_count": 3,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_5890_firmware:073.190.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5890_firmware:073.190.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_5890_firmware:075.190.010.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_5890_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_5890_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_7220:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_7220_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7220_firmware:073.030.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7220_firmware:073.030.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7220_firmware:073.030.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7220_firmware:075.030.000.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_7220_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_7220_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_7225:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_7225_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7225_firmware:073.030.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7225_firmware:073.030.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7225_firmware:073.030.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7225_firmware:075.030.000.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_7225_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_7225_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_7830:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_7830_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7830_firmware:073.010.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7830_firmware:073.010.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7830_firmware:073.010.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7830_firmware:075.010.000.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_7830_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_7830_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_7835:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_7835_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7835_firmware:073.010.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7835_firmware:073.010.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7835_firmware:073.010.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7835_firmware:075.010.000.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_7835_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_7835_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_7845:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_7845_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7845_firmware:073.010.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7845_firmware:073.010.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7845_firmware:073.040.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7845_firmware:075.040.000.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_7845_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_7845_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_7855:-:*:*:*:*:*:*:*",
+      "predicted_count": 5,
+      "truth_count": 1,
+      "exact_hits_predicted": [
+        "cpe:2.3:o:xerox:workcentre_7855_firmware:-:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7855_firmware:073.010.000.02300:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7855_firmware:073.010.086.15410:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7855_firmware:073.040.048.15000:*:*:*:*:*:*:*",
+        "cpe:2.3:o:xerox:workcentre_7855_firmware:075.040.000.12010:*:*:*:*:*:*:*"
+      ],
+      "exact_hits_truth_covered": [
+        "cpe:2.3:o:xerox:workcentre_7855_firmware:*:*:*:*:*:*:*:*"
+      ],
+      "loose_hits_vendor_product": [
+        "xerox:workcentre_7855_firmware"
+      ],
+      "exact_precision": 1.0,
+      "exact_recall": 1.0,
+      "loose_precision": 1.0,
+      "loose_recall": 1.0
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:232:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:238:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:245:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:255:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:265:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    },
+    {
+      "hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:275:*:*:*:*:*:*:*",
+      "predicted_count": 0,
+      "truth_count": 0,
+      "note": "no ground-truth co-occurrence found for this hardware CPE (not evaluable)"
+    }
+  ]
+}

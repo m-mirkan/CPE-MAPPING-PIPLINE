@@ -1,0 +1,2670 @@
+[
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:7655:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "7655",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7655"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7655"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7655"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7655"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7655"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:7665:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "7665",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7665"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7665"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7665"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7665"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "7665"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:fujixerox:apeosport_c5570:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "apeosport",
+      "c5570"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:fujixerox:apeosport-v_c4475_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "apeosport"
+        ],
+        "missing_tokens": [
+          "c5570"
+        ],
+        "extra_tokens": [
+          "c4475",
+          "v"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:fujixerox:apeosport-vi_c3371_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "apeosport"
+        ],
+        "missing_tokens": [
+          "c5570"
+        ],
+        "extra_tokens": [
+          "c3371",
+          "vi"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:fujixerox:apeosport-v_c3375_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "apeosport"
+        ],
+        "missing_tokens": [
+          "c5570"
+        ],
+        "extra_tokens": [
+          "c3375",
+          "v"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:fujixerox:apeosport-v_c5576_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "apeosport"
+        ],
+        "missing_tokens": [
+          "c5570"
+        ],
+        "extra_tokens": [
+          "c5576",
+          "v"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:fujixerox:apeosport-v_5070_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "apeosport"
+        ],
+        "missing_tokens": [
+          "c5570"
+        ],
+        "extra_tokens": [
+          "5070",
+          "v"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_4345_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "4345",
+      "laserjet",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4345"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4345"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4345"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4345"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4345"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_9040_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "9040",
+      "laserjet",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9040"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9040"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9040"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9040"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9040"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_9050_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "9050",
+      "laserjet",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9050"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9050"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9050"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9050"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "9050"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m4345_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "laserjet",
+      "m4345",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m4345"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m4345"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m4345"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m4345"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m4345"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m3027_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "laserjet",
+      "m3027",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3027"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3027"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3027"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3027"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3027"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:color_laserjet_4730_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "4730",
+      "color",
+      "laserjet",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "color",
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4730"
+        ],
+        "extra_tokens": [
+          "cm4540"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "color",
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4730"
+        ],
+        "extra_tokens": [
+          "cm4540"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_enterprise_flow_mfp_m681f_firmware:2406087_000017:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "color",
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4730"
+        ],
+        "extra_tokens": [
+          "enterprise",
+          "flow",
+          "m681f"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_enterprise_flow_mfp_m681f_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "color",
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4730"
+        ],
+        "extra_tokens": [
+          "enterprise",
+          "flow",
+          "m681f"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_enterprise_flow_mfp_m681z_firmware:2406087_000017:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "color",
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "4730"
+        ],
+        "extra_tokens": [
+          "enterprise",
+          "flow",
+          "m681z"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m3035_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "laserjet",
+      "m3035",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3035"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3035"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3035"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3035"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m3035"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m5025_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "laserjet",
+      "m5025",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5025"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5025"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5025"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5025"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5025"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:hp:laserjet_m5035_mfp:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "laserjet",
+      "m5035",
+      "mfp"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1212nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5035"
+        ],
+        "extra_tokens": [
+          "m1212nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1213nf_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5035"
+        ],
+        "extra_tokens": [
+          "m1213nf",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:laserjet_pro_m1214nfh_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5035"
+        ],
+        "extra_tokens": [
+          "m1214nfh",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:hotspot_laserjet_pro_m1218nfs_mfp_firmware:20130703:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5035"
+        ],
+        "extra_tokens": [
+          "hotspot",
+          "m1218nfs",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:hp:color_laserjet_cm4540_mfp_firmware:2308974_579754:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "laserjet",
+          "mfp"
+        ],
+        "missing_tokens": [
+          "m5035"
+        ],
+        "extra_tokens": [
+          "cm4540",
+          "color"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:konicaminolta:bizhub_200:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "200",
+      "bizhub"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:konicaminolta:bizhub_224e_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "bizhub"
+        ],
+        "missing_tokens": [
+          "200"
+        ],
+        "extra_tokens": [
+          "224e"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:konicaminolta:bizhub_226_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "bizhub"
+        ],
+        "missing_tokens": [
+          "200"
+        ],
+        "extra_tokens": [
+          "226"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:konicaminolta:bizhub_227_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "bizhub"
+        ],
+        "missing_tokens": [
+          "200"
+        ],
+        "extra_tokens": [
+          "227"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:konicaminolta:bizhub_266i_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "bizhub"
+        ],
+        "missing_tokens": [
+          "200"
+        ],
+        "extra_tokens": [
+          "266i"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:konicaminolta:bizhub_284e_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "bizhub"
+        ],
+        "missing_tokens": [
+          "200"
+        ],
+        "extra_tokens": [
+          "284e"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5135:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "5135",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5135"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5135"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5135"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5135"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5135"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5150:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "5150",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5150"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5150"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5150"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5150"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5150"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:galaxy_note_4:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "4",
+      "galaxy",
+      "note"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:galaxy_note_3_firmware:n9005xxugbob6:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "galaxy",
+          "note"
+        ],
+        "missing_tokens": [
+          "4"
+        ],
+        "extra_tokens": [
+          "3"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:galaxy_note_2_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "galaxy",
+          "note"
+        ],
+        "missing_tokens": [
+          "4"
+        ],
+        "extra_tokens": [
+          "2"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:galaxy_s6_firmware:g920fxxu2coh2:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "galaxy"
+        ],
+        "missing_tokens": [
+          "4",
+          "note"
+        ],
+        "extra_tokens": [
+          "s6"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:galaxy_s4_mini_firmware:i9192xxubnb1:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "galaxy"
+        ],
+        "missing_tokens": [
+          "4",
+          "note"
+        ],
+        "extra_tokens": [
+          "mini",
+          "s4"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:galaxy_s4_mini_lte_firmware:i9195xxucol1:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "galaxy"
+        ],
+        "missing_tokens": [
+          "4",
+          "note"
+        ],
+        "extra_tokens": [
+          "lte",
+          "mini",
+          "s4"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5655:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "5655",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5655"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5655"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5655"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5655"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5655"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:232:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "232",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:238:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "238",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:245:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "245",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:255:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "255",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:265:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "265",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre:275:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "275",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:232:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "232",
+      "pro",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "75"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "90"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "232"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:238:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "238",
+      "pro",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "75"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "90"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "238"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:245:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "245",
+      "pro",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "75"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "90"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "245"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:255:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "255",
+      "pro",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "75"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "90"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "255"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:265:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "265",
+      "pro",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "75"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "90"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "265"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_pro:275:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "275",
+      "pro",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "75"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "90"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "pro",
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "275"
+        ],
+        "extra_tokens": [
+          "65"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_sw185a:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "8240",
+      "multixpress",
+      "scx",
+      "sw185a"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-6545x_firmware:2.00.03.01:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8240",
+          "multixpress",
+          "sw185a"
+        ],
+        "extra_tokens": [
+          "6545x"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-824_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8240",
+          "multixpress",
+          "sw185a"
+        ],
+        "extra_tokens": [
+          "824"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_ss022a:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "8240",
+      "multixpress",
+      "scx",
+      "ss022a"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-6545x_firmware:2.00.03.01:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8240",
+          "multixpress",
+          "ss022a"
+        ],
+        "extra_tokens": [
+          "6545x"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-824_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8240",
+          "multixpress",
+          "ss022a"
+        ],
+        "extra_tokens": [
+          "824"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8240_st717a:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "8240",
+      "multixpress",
+      "scx",
+      "st717a"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-6545x_firmware:2.00.03.01:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8240",
+          "multixpress",
+          "st717a"
+        ],
+        "extra_tokens": [
+          "6545x"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-824_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8240",
+          "multixpress",
+          "st717a"
+        ],
+        "extra_tokens": [
+          "824"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:multixpress_scx-8230_ss021a:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "8230",
+      "multixpress",
+      "scx",
+      "ss021a"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-6545x_firmware:2.00.03.01:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8230",
+          "multixpress",
+          "ss021a"
+        ],
+        "extra_tokens": [
+          "6545x"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-824_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "8230",
+          "multixpress",
+          "ss021a"
+        ],
+        "extra_tokens": [
+          "824"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:xerox:workcentre_5755:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "5755",
+      "workcentre"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5755"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_75_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5755"
+        ],
+        "extra_tokens": [
+          "75",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_90_firmware:1.001.02.073:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5755"
+        ],
+        "extra_tokens": [
+          "90",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.074:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5755"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:xerox:workcentre_pro_65_firmware:1.001.02.715:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "workcentre"
+        ],
+        "missing_tokens": [
+          "5755"
+        ],
+        "extra_tokens": [
+          "65",
+          "pro"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:scx-5737_sw045a:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "5737",
+      "scx",
+      "sw045a"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-6545x_firmware:2.00.03.01:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "5737",
+          "sw045a"
+        ],
+        "extra_tokens": [
+          "6545x"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-824_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "5737",
+          "sw045a"
+        ],
+        "extra_tokens": [
+          "824"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:samsung:scx-5737_sw046a:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "5737",
+      "scx",
+      "sw046a"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-6545x_firmware:2.00.03.01:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "5737",
+          "sw046a"
+        ],
+        "extra_tokens": [
+          "6545x"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:samsung:scx-824_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "scx"
+        ],
+        "missing_tokens": [
+          "5737",
+          "sw046a"
+        ],
+        "extra_tokens": [
+          "824"
+        ]
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:cisco:4400_wireless_lan_controller:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "4400",
+      "controller",
+      "lan",
+      "wireless"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:cisco:wireless_lan_controller:3.2:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "controller",
+          "lan",
+          "wireless"
+        ],
+        "missing_tokens": [
+          "4400"
+        ],
+        "extra_tokens": []
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:wireless_lan_controller:3.2.116.21:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "controller",
+          "lan",
+          "wireless"
+        ],
+        "missing_tokens": [
+          "4400"
+        ],
+        "extra_tokens": []
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:wireless_lan_controller:4.0:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "controller",
+          "lan",
+          "wireless"
+        ],
+        "missing_tokens": [
+          "4400"
+        ],
+        "extra_tokens": []
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:wireless_lan_controller:4.0.155.0:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "controller",
+          "lan",
+          "wireless"
+        ],
+        "missing_tokens": [
+          "4400"
+        ],
+        "extra_tokens": []
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:wireless_lan_controller:4.1:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "controller",
+          "lan",
+          "wireless"
+        ],
+        "missing_tokens": [
+          "4400"
+        ],
+        "extra_tokens": []
+      }
+    ]
+  },
+  {
+    "input_hardware_cpe": "cpe:2.3:h:cisco:catalyst_6500:-:*:*:*:*:*:*:*",
+    "required_tokens": [
+      "6500",
+      "catalyst"
+    ],
+    "near_misses": [
+      {
+        "cpe_name": "cpe:2.3:o:cisco:catalyst_9800-40_wireless_controller_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "catalyst"
+        ],
+        "missing_tokens": [
+          "6500"
+        ],
+        "extra_tokens": [
+          "40",
+          "9800",
+          "controller",
+          "wireless"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:catalyst_9800-80_wireless_controller_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "catalyst"
+        ],
+        "missing_tokens": [
+          "6500"
+        ],
+        "extra_tokens": [
+          "80",
+          "9800",
+          "controller",
+          "wireless"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:catalyst_9100_firmware:-:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "catalyst"
+        ],
+        "missing_tokens": [
+          "6500"
+        ],
+        "extra_tokens": [
+          "9100"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:catalyst_iw6300_firmware:8.10\\(1.255\\):*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "catalyst"
+        ],
+        "missing_tokens": [
+          "6500"
+        ],
+        "extra_tokens": [
+          "iw6300"
+        ]
+      },
+      {
+        "cpe_name": "cpe:2.3:o:cisco:catalyst_iw6300_firmware:8.0:*:*:*:*:*:*:*",
+        "shared_tokens": [
+          "catalyst"
+        ],
+        "missing_tokens": [
+          "6500"
+        ],
+        "extra_tokens": [
+          "iw6300"
+        ]
+      }
+    ]
+  }
+]
