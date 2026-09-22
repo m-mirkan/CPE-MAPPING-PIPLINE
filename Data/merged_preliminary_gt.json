@@ -1,0 +1,1110 @@
+{
+  "2": [],
+  "225": [
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.00.001:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.00.002:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.00.003:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.00:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.01.001:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.01:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.02.001:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.02.002:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:8.1.02:*:*:*:*:*:*:*"
+  ],
+  "170": [],
+  "69": [],
+  "104": [],
+  "203": [
+    "cpe:2.3:h:xerox:workcentre:7655:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre:7665:*:*:*:*:*:*:*"
+  ],
+  "112": [
+    "cpe:2.3:a:ibm:websphere_portal:6.0.0.0:*:*:*:*:*:*:*"
+  ],
+  "151": [
+    "cpe:2.3:a:samsung:knox:1.2.02.39:*:*:*:*:*:*:*"
+  ],
+  "131": [
+    "cpe:2.3:a:emc:scaleio:*:*:*:*:*:*:*:*"
+  ],
+  "161": [
+    "cpe:2.3:h:konicaminolta:bizhub_c750i:-:*:*:*:*:*:*:*"
+  ],
+  "8": [
+    "cpe:2.3:o:oracle:linux:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:oracle:linux:*:*:*:*:*:*:*:*"
+  ],
+  "95": [
+    "cpe:2.3:a:mcafee:application_and_change_control:8.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mcafee:epolicy_orchestrator:5.10.0:-:*:*:*:*:*:*"
+  ],
+  "37": [
+    "cpe:2.3:h:cisco:firepower_4100:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:cisco:firepower_9300:-:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cisco:firepower_threat_defense:-:*:*:*:*:*:*:*"
+  ],
+  "9": [
+    "cpe:2.3:a:netapp:e-series_santricity_os_controller:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netapp:e-series_santricity_os_controller:-:*:*:*:*:*:*:*"
+  ],
+  "229": [
+    "cpe:2.3:a:symantec:network_access_control:12.1:*:*:*:*:*:*:*"
+  ],
+  "164": [
+    "cpe:2.3:h:fujifilm:apeosport-vii_c7788:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:fujifilm:docucentre-vii_c7788:-:*:*:*:*:*:*:*"
+  ],
+  "182": [
+    "cpe:2.3:h:ricoh:mp_2555:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_3055:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_3555:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_4055:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_6055:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_5055:-:*:*:*:*:*:*:*"
+  ],
+  "246": [
+    "cpe:2.3:h:konicaminolta:bizhub_224e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_284e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_364e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_454e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_554e:-:*:*:*:*:*:*:*"
+  ],
+  "65": [
+    "cpe:2.3:h:ricoh:im_c4500:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_c5500:-:*:*:*:*:*:*:*"
+  ],
+  "86": [
+    "cpe:2.3:a:netscout:ngenius_performance_manager:-:*:*:*:*:*:*:*",
+    "cpe:2.3:a:netscout:ngenius_infinistream:*:*:*:*:*:*:*:*"
+  ],
+  "250": [
+    "cpe:2.3:h:konicaminolta:bizhub_654:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_754:-:*:*:*:*:*:*:*"
+  ],
+  "113": [
+    "cpe:2.3:o:fujifilm:apeosport-iv_7080_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:fujifilm:docucentre-iv_7080_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:fujifilm:apeosport-iv_6080_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:fujifilm:apeosport-iv_5080_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "221": [
+    "cpe:2.3:a:citrix:netscaler:10.5:*:*:*:*:*:*:*",
+    "cpe:2.3:o:citrix:netscaler_firmware:10.5:*:*:*:*:*:*:*"
+  ],
+  "84": [
+    "cpe:2.3:h:sharp:bp-30c25:-:*:*:*:*:*:*:*"
+  ],
+  "15": [],
+  "1": [
+    "cpe:2.3:a:kaspersky:endpoint_security:-:*:*:*:*:*:*:*",
+    "cpe:2.3:a:kaspersky:endpoint_security:*:*:*:*:*:*:*:*"
+  ],
+  "26": [
+    "cpe:2.3:a:rsa:netwitness:*:*:*:*:*:*:*:*"
+  ],
+  "217": [
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r1.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r1.1:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r10.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r11.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r12.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r2.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r3.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r3.1:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r4.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r4.1:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r5.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r5.1:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r5.2:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r6.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r7.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r8.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r8.1:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r8.2:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3:r9.0:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r10.:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r11.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r12.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r3.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r5.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r6.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r7.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r8.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r8.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3r9.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:5.3rx:*:*:*:*:*:*:*"
+  ],
+  "120": [
+    "cpe:2.3:a:cyberark:privileged_access_manager:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cyberark:privileged_access_manager:14.0:*:*:*:*:*:*:*"
+  ],
+  "33": [
+    "cpe:2.3:h:hp:integrated_lights-out_4:-:*:*:*:*:*:*:*"
+  ],
+  "36": [
+    "cpe:2.3:h:ricoh:im_6000:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_5000:-:*:*:*:*:*:*:*"
+  ],
+  "226": [
+    "cpe:2.3:h:arista:7500e:-:*:*:*:*:*:*:*"
+  ],
+  "160": [
+    "cpe:2.3:h:konicaminolta:bizhub_c227i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c257i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c287i:-:*:*:*:*:*:*:*"
+  ],
+  "241": [],
+  "134": [
+    "cpe:2.3:a:oracle:identity_management_10g:10.1.4.0.1:*:*:*:*:*:*:*"
+  ],
+  "152": [],
+  "256": [
+    "cpe:2.3:h:fujixerox:docucentre-iv_c2263:-:*:*:*:*:*:*:*"
+  ],
+  "158": [],
+  "24": [
+    "cpe:2.3:o:cisco:pix_firewall:5.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:pix_firewall_software:5.2:*:*:*:*:*:*:*"
+  ],
+  "176": [
+    "cpe:2.3:h:konicaminolta:bizhub_c659:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c759:-:*:*:*:*:*:*:*"
+  ],
+  "55": [
+    "cpe:2.3:h:juniper:srx_series:-:*:*:*:*:*:*:*"
+  ],
+  "219": [
+    "cpe:2.3:a:fortinet:fortianalyzer:5.2.4:*:*:*:*:*:*:*"
+  ],
+  "81": [
+    "cpe:2.3:h:sharp:mx-b476w:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-b456w:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-b356w:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-b376w:-:*:*:*:*:*:*:*"
+  ],
+  "253": [
+    "cpe:2.3:h:fujixerox:docucentre-iv_c2263:-:*:*:*:*:*:*:*"
+  ],
+  "42": [
+    "cpe:2.3:o:huawei:s_series_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "78": [
+    "cpe:2.3:a:bmc:remedy_action_request_system:-:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bmc:remedy_action_request_system:*:*:*:*:*:*:*:*"
+  ],
+  "125": [
+    "cpe:2.3:h:juniper:ex4600:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:juniper:qfx5100:-:*:*:*:*:*:*:*"
+  ],
+  "12": [],
+  "188": [
+    "cpe:2.3:h:ricoh:mp_c2003:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_c2503:-:*:*:*:*:*:*:*"
+  ],
+  "162": [
+    "cpe:2.3:h:konicaminolta:bizhub_c250i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c300i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c360i:-:*:*:*:*:*:*:*"
+  ],
+  "107": [
+    "cpe:2.3:o:cisco:pix_firewall:6.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:pix_firewall_software:6.2:*:*:*:*:*:*:*"
+  ],
+  "10": [
+    "cpe:2.3:o:nokia:service_router_operating_system:-:*:*:*:*:*:*:*"
+  ],
+  "25": [
+    "cpe:2.3:a:ibm:racf:-:*:*:*:*:*:*:*"
+  ],
+  "251": [
+    "cpe:2.3:h:konicaminolta:bizhub_c224:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c284:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c364:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c454:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c554:-:*:*:*:*:*:*:*"
+  ],
+  "138": [
+    "cpe:2.3:o:cisco:adaptive_security_appliance_software:9.6:*:*:*:*:*:*:*"
+  ],
+  "87": [
+    "cpe:2.3:h:brocade:netiron_mlxe-16:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:brocade:netiron_mlxe-32:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:brocade:netiron_mlxe-4:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:brocade:netiron_mlxe-8:-:*:*:*:*:*:*:*"
+  ],
+  "61": [],
+  "73": [
+    "cpe:2.3:o:juniper:junos:*:*:*:*:*:*:*:*"
+  ],
+  "218": [],
+  "257": [
+    "cpe:2.3:h:kyocera:taskalfa_6550ci:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:kyocera:taskalfa_7550ci:-:*:*:*:*:*:*:*"
+  ],
+  "233": [
+    "cpe:2.3:h:f5:firepass_4100:5.5.2:*:*:*:*:*:*:*"
+  ],
+  "224": [
+    "cpe:2.3:a:a10networks:application_delivery_controller:-:*:*:*:*:*:*:*"
+  ],
+  "258": [
+    "cpe:2.3:h:fujixerox:apeosport_c5570:-:*:*:*:*:*:*:*"
+  ],
+  "70": [
+    "cpe:2.3:h:juniper:srx1500:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:juniper:srx345:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:juniper:srx380:-:*:*:*:*:*:*:*"
+  ],
+  "264": [
+    "cpe:2.3:h:hp:laserjet_4345_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_9040_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_9050_mfp:-:*:*:*:*:*:*:*"
+  ],
+  "133": [
+    "cpe:2.3:a:gradkell:dbsign_for_html_applications:*:*:*:*:*:*:*:*"
+  ],
+  "90": [
+    "cpe:2.3:a:netiq:secure_configuration_manager:*:*:*:*:*:*:*:*"
+  ],
+  "266": [
+    "cpe:2.3:h:st:st33tphf2espi:-:*:*:*:*:*:*:*"
+  ],
+  "168": [
+    "cpe:2.3:h:lexmark:ms622:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:ms622_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "72": [
+    "cpe:2.3:h:sharp:mx-2651:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-3061:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-6051:-:*:*:*:*:*:*:*"
+  ],
+  "245": [
+    "cpe:2.3:h:samsung:galaxy_s5:-:*:*:*:*:*:*:*"
+  ],
+  "27": [
+    "cpe:2.3:a:symantec:enterprise_firewall:7.0.4:*:*:*:*:*:*:*"
+  ],
+  "249": [
+    "cpe:2.3:h:konicaminolta:bizhub_654:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_754:-:*:*:*:*:*:*:*"
+  ],
+  "75": [
+    "cpe:2.3:h:juniper:acx5448-m:-:*:*:*:*:*:*:*"
+  ],
+  "126": [
+    "cpe:2.3:a:vmware:nsx-t_data_center:*:*:*:*:*:*:*:*"
+  ],
+  "108": [
+    "cpe:2.3:o:ibm:aix:5.2:*:*:*:*:*:*:*"
+  ],
+  "262": [
+    "cpe:2.3:h:hp:laserjet_m4345_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_m3027_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:color_laserjet_4730_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_m3035_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_m5025_mfp:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_m5035_mfp:-:*:*:*:*:*:*:*"
+  ],
+  "197": [
+    "cpe:2.3:h:ricoh:mp_c6003:-:*:*:*:*:*:*:*"
+  ],
+  "267": [
+    "cpe:2.3:h:st:st33tphf2espi:-:*:*:*:*:*:*:*"
+  ],
+  "57": [],
+  "247": [
+    "cpe:2.3:h:konicaminolta:bizhub_654e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_754e:-:*:*:*:*:*:*:*"
+  ],
+  "32": [
+    "cpe:2.3:o:suse:linux_enterprise_server:15:*:*:*:*:*:*:*"
+  ],
+  "153": [
+    "cpe:2.3:h:samsung:s3nsn4v:-:*:*:*:*:*:*:*"
+  ],
+  "165": [
+    "cpe:2.3:h:lexmark:cx921:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:cx922:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:cx923:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:cx924:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx522:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx822:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx826:-:*:*:*:*:*:*:*"
+  ],
+  "174": [
+    "cpe:2.3:h:konicaminolta:bizhub_308e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_368e:-:*:*:*:*:*:*:*"
+  ],
+  "117": [
+    "cpe:2.3:a:netiq:sentinel:-:*:*:*:*:*:*:*"
+  ],
+  "77": [],
+  "17": [],
+  "204": [
+    "cpe:2.3:h:konicaminolta:bizhub_200:-:*:*:*:*:*:*:*"
+  ],
+  "157": [
+    "cpe:2.3:o:samsung:android:12.0:-:*:*:*:*:*:*"
+  ],
+  "60": [],
+  "11": [
+    "cpe:2.3:h:ricoh:im_2500:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_3000:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_4000:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_3500:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_5000:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_6000:-:*:*:*:*:*:*:*"
+  ],
+  "199": [
+    "cpe:2.3:h:xerox:workcentre_5135:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_5150:-:*:*:*:*:*:*:*"
+  ],
+  "62": [
+    "cpe:2.3:a:mcafee:epolicy_orchestrator:5.9.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:mcafee:data_loss_prevention_endpoint:11.0:*:*:*:*:*:*:*"
+  ],
+  "145": [
+    "cpe:2.3:o:cisco:ios_xe:17.15.1:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.15.1y:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.15.1z:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.15.3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.15.3a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.15.3b:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.15.4:*:*:*:*:*:*:*"
+  ],
+  "66": [],
+  "140": [
+    "cpe:2.3:h:qualcomm:sm8450:-:*:*:*:*:*:*:*"
+  ],
+  "40": [
+    "cpe:2.3:h:huawei:cloudengine_7800:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:cloudengine_8800:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:cloudengine_6800:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:cloudengine_5800:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:cloudengine_12800:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:huawei:cloudengine_6800_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:huawei:cloudengine_5800_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:huawei:cloudengine_8800_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:huawei:cloudengine_7800_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:huawei:cloudengine_12800_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "187": [],
+  "254": [
+    "cpe:2.3:h:fujixerox:docucentre-iv_c2263:-:*:*:*:*:*:*:*"
+  ],
+  "124": [
+    "cpe:2.3:o:cisco:hyperflex_hx_data_platform:3.5:*:*:*:*:*:*:*"
+  ],
+  "129": [
+    "cpe:2.3:h:apple:ipad:-:*:*:*:*:*:*:*"
+  ],
+  "148": [
+    "cpe:2.3:a:fortinet:fortimail:7.4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortimail:7.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortimail:7.4.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortimail:7.4.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortimail:7.4.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortimail:7.4.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortimail:7.4.6:*:*:*:*:*:*:*"
+  ],
+  "184": [
+    "cpe:2.3:h:ricoh:mp_c306:-:*:*:*:*:*:*:*"
+  ],
+  "4": [
+    "cpe:2.3:h:samsung:galaxy_a3:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:galaxy_a7:-:*:*:*:*:*:*:*"
+  ],
+  "244": [
+    "cpe:2.3:h:samsung:galaxy_note_4:-:*:*:*:*:*:*:*"
+  ],
+  "268": [
+    "cpe:2.3:h:nuvoton:npct7xx:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:nuvoton:npct7xx_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "28": [
+    "cpe:2.3:h:enterasys:dragon:-:*:*:*:*:*:*:*"
+  ],
+  "23": [
+    "cpe:2.3:a:microsoft:sql_server_2022:16.0.4105.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:microsoft:sql_server_2022:16.0.4105.2:*:*:*:*:*:x64:*"
+  ],
+  "136": [
+    "cpe:2.3:a:vmware:horizon_client:4.6.1:*:*:*:*:*:*:*"
+  ],
+  "92": [
+    "cpe:2.3:h:ricoh:im_c4500:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_c5500:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:im_c6000:-:*:*:*:*:*:*:*"
+  ],
+  "142": [
+    "cpe:2.3:o:huawei:emui:11.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:o:huawei:emui:11.0.1:*:*:*:*:*:*:*"
+  ],
+  "63": [],
+  "50": [],
+  "97": [
+    "cpe:2.3:h:huawei:s9300:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s6300:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s5300:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s2700:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s2300:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s5700:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s7700:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s6700:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:huawei:s9700:-:*:*:*:*:*:*:*"
+  ],
+  "179": [
+    "cpe:2.3:h:lexmark:cx725h:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xc4150:-:*:*:*:*:*:*:*"
+  ],
+  "155": [
+    "cpe:2.3:o:samsung:android:13.0:-:*:*:*:*:*:*"
+  ],
+  "227": [
+    "cpe:2.3:o:sonicwall:sonicos:5.9.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:o:sonicwall:sonicos:5.9.0.7:*:*:*:*:*:*:*"
+  ],
+  "216": [],
+  "265": [
+    "cpe:2.3:a:ibm:websphere_application_server:6.1:*:*:*:*:*:*:*"
+  ],
+  "39": [
+    "cpe:2.3:a:ca:etrust_siteminder:-:*:*:*:*:*:*:*"
+  ],
+  "177": [
+    "cpe:2.3:h:lexmark:c6160:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:cs820:-:*:*:*:*:*:*:*"
+  ],
+  "82": [
+    "cpe:2.3:o:microsoft:windows_10:-:*:*:*:*:*:*:*"
+  ],
+  "53": [
+    "cpe:2.3:o:infoblox:nios:7.1:*:*:*:*:*:*:*"
+  ],
+  "248": [
+    "cpe:2.3:h:konicaminolta:bizhub_c754e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c654e:-:*:*:*:*:*:*:*"
+  ],
+  "123": [
+    "cpe:2.3:a:samsungsds:enterprise_mobility_management:-:*:*:*:*:*:*:*"
+  ],
+  "67": [
+    "cpe:2.3:a:pulsesecure:pulse_policy_secure:9.1:-:*:*:*:*:*:*"
+  ],
+  "200": [
+    "cpe:2.3:h:xerox:workcentre_5655:-:*:*:*:*:*:*:*"
+  ],
+  "252": [],
+  "195": [
+    "cpe:2.3:h:ricoh:mp_c2503:-:*:*:*:*:*:*:*"
+  ],
+  "64": [
+    "cpe:2.3:a:lancope:stealthwatch:-:*:*:*:*:*:*:*"
+  ],
+  "20": [
+    "cpe:2.3:o:st:stsafe-j_firmware:1.1.4:*:*:*:*:*:*:*"
+  ],
+  "159": [],
+  "45": [
+    "cpe:2.3:a:microsoft:sql_server:2008:-:*:*:*:*:*:*",
+    "cpe:2.3:a:microsoft:sql_server:2008:*:*:*:*:*:*:*"
+  ],
+  "173": [
+    "cpe:2.3:h:xerox:versalink_b605:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:versalink_b615:-:*:*:*:*:*:*:*"
+  ],
+  "185": [
+    "cpe:2.3:h:lexmark:mx810:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx811:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx812:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx910:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx911:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx912:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xc2132:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xm7155:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xm7163:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xm7170:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xm9145:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xm9155:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:xm9165:-:*:*:*:*:*:*:*"
+  ],
+  "238": [
+    "cpe:2.3:o:suse:linux_enterprise_server:12:-:*:*:*:*:*:*",
+    "cpe:2.3:o:suse:suse_linux_enterprise_server:12:-:*:*:*:*:*:*"
+  ],
+  "71": [
+    "cpe:2.3:a:cisco:vpn_client:5.0.03.0560:*:*:*:*:*:*:*"
+  ],
+  "154": [],
+  "190": [
+    "cpe:2.3:h:konicaminolta:bizhub_654e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_754e:-:*:*:*:*:*:*:*"
+  ],
+  "201": [
+    "cpe:2.3:h:lexmark:x642:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x644:-:*:*:*:*:*:*:*"
+  ],
+  "94": [],
+  "191": [
+    "cpe:2.3:h:xerox:colorqube_8700:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:colorqube_8900:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:colorqube_9301:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:colorqube_9302:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:colorqube_9303:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_5845:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_5855:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_5865:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_5875:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_5890:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_7220:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_7225:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_7830:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_7835:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_7845:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_7855:-:*:*:*:*:*:*:*"
+  ],
+  "235": [
+    "cpe:2.3:o:redhat:enterprise_linux_aus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_eus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_arm_64_eus:8.2_aarch64:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_ibm_z_systems_eus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_ibm_z_systems_eus:8.2_s390x:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_power_little_endian_eus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_ibm_z_systems_eus_s390x:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_power_little_endian_eus:8.2_ppc64le:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_real_time_eus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_real_time_for_nfv_eus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_real_time_for_nfv_tus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_for_real_time_tus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_server_aus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_server_for_power_little_endian_update_services_for_sap_solutions:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_server_tus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_server_update_services_for_sap_solutions:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_tus:8.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:redhat:enterprise_linux_update_services_for_sap_solutions:8.2:*:*:*:*:*:*:*"
+  ],
+  "5": [],
+  "220": [
+    "cpe:2.3:a:fortinet:fortimanager:5.2.4:*:*:*:*:*:*:*"
+  ],
+  "270": [
+    "cpe:2.3:h:nuvoton:npct7xx:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:nuvoton:npct7xx_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "99": [
+    "cpe:2.3:a:paloaltonetworks:globalprotect:*:*:*:*:*:*:*:*"
+  ],
+  "34": [
+    "cpe:2.3:o:extremenetworks:extremexos:22.3:*:*:*:*:*:*:*"
+  ],
+  "213": [
+    "cpe:2.3:o:watchguard:fireware:12.3.1:-:*:*:*:*:*:*"
+  ],
+  "101": [
+    "cpe:2.3:h:sharp:mx-8081:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-7081:-:*:*:*:*:*:*:*"
+  ],
+  "127": [
+    "cpe:2.3:h:lg:v30:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lg:g6:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lg:v35:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lg:g7:-:*:*:*:*:*:*:*"
+  ],
+  "130": [
+    "cpe:2.3:a:f5:big-ip_advanced_firewall_manager:15.1.2.1:*:*:*:*:*:*:*"
+  ],
+  "211": [
+    "cpe:2.3:o:dell:smartfabric_os10:10.5.1.0:*:*:*:*:*:*:*"
+  ],
+  "198": [
+    "cpe:2.3:h:lexmark:x463:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x464:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x651:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x652:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x654:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x734:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:x736:-:*:*:*:*:*:*:*"
+  ],
+  "202": [
+    "cpe:2.3:h:xerox:workcentre:232:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre:238:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre:245:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre:255:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre:265:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre:275:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_pro:232:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_pro:238:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_pro:245:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_pro:255:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_pro:265:*:*:*:*:*:*:*",
+    "cpe:2.3:h:xerox:workcentre_pro:275:*:*:*:*:*:*:*"
+  ],
+  "214": [
+    "cpe:2.3:o:cisco:ios_xe:16.9:*:*:*:*:*:*:*"
+  ],
+  "222": [
+    "cpe:2.3:o:cisco:nx-os:6.2:*:*:*:*:*:*:*"
+  ],
+  "243": [],
+  "276": [
+    "cpe:2.3:h:konicaminolta:bizhub_c227i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c257i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c287i:-:*:*:*:*:*:*:*"
+  ],
+  "89": [],
+  "38": [],
+  "128": [
+    "cpe:2.3:h:paloaltonetworks:m-200:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:paloaltonetworks:m-600:-:*:*:*:*:*:*:*"
+  ],
+  "111": [
+    "cpe:2.3:h:avocent:kvm:-:*:*:*:*:*:*:*"
+  ],
+  "167": [
+    "cpe:2.3:h:ricoh:m_c2000:-:*:*:*:*:*:*:*"
+  ],
+  "132": [],
+  "230": [
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ibm:tivoli_netcool\\/omnibus:7.3.1.6:*:*:*:*:*:*:*"
+  ],
+  "189": [
+    "cpe:2.3:h:konicaminolta:bizhub_224e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_284e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_364e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_454e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_554e:-:*:*:*:*:*:*:*"
+  ],
+  "275": [
+    "cpe:2.3:h:konicaminolta:bizhub_4050i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_4750i:-:*:*:*:*:*:*:*"
+  ],
+  "83": [],
+  "18": [
+    "cpe:2.3:a:oracle:database:-:*:*:*:enterprise:*:*:*"
+  ],
+  "232": [
+    "cpe:2.3:o:bluecoat:proxysg:5.3:*:*:*:*:*:*:*"
+  ],
+  "271": [
+    "cpe:2.3:h:st:st33tphf20i2c:-:*:*:*:*:*:*:*"
+  ],
+  "122": [
+    "cpe:2.3:h:huawei:fusionsphere_openstack:-:*:*:*:*:*:*:*"
+  ],
+  "196": [
+    "cpe:2.3:h:ricoh:mp_c4503:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_c5503:-:*:*:*:*:*:*:*"
+  ],
+  "234": [],
+  "263": [
+    "cpe:2.3:a:ibm:websphere_application_server:6.1.0.2:*:*:*:*:*:*:*"
+  ],
+  "51": [
+    "cpe:2.3:o:vmware:esxi:8.0:update_3:*:*:*:*:*:*",
+    "cpe:2.3:o:vmware:esxi:8.0:-:*:*:*:*:*:*"
+  ],
+  "144": [],
+  "261": [
+    "cpe:2.3:a:redhat:jboss_enterprise_application_platform:4.3.0:*:*:*:*:*:*:*"
+  ],
+  "68": [
+    "cpe:2.3:o:nokia:service_router_operating_system:-:*:*:*:*:*:*:*"
+  ],
+  "103": [
+    "cpe:2.3:o:utimaco:cryptoserver_cp5_firmware:5.1.0.0:*:*:*:*:*:*:*"
+  ],
+  "273": [
+    "cpe:2.3:h:st:st33tphf20spi:-:*:*:*:*:*:*:*"
+  ],
+  "147": [
+    "cpe:2.3:o:cisco:ios_xe:17.12.1:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1w:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1x:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1y:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1z3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.2a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.3a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5b:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5c:*:*:*:*:*:*:*"
+  ],
+  "236": [],
+  "183": [],
+  "206": [
+    "cpe:2.3:o:cisco:ios_xe:17.12.1:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1w:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1x:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1y:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1z3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.2a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.3a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5b:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5c:*:*:*:*:*:*:*"
+  ],
+  "205": [],
+  "79": [],
+  "269": [
+    "cpe:2.3:h:nuvoton:npct7xx:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:nuvoton:npct7xx_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "141": [
+    "cpe:2.3:h:samsung:s3nsn4v:-:*:*:*:*:*:*:*"
+  ],
+  "137": [
+    "cpe:2.3:h:ricoh:im_c300:-:*:*:*:*:*:*:*"
+  ],
+  "180": [
+    "cpe:2.3:h:ricoh:mp_c307:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_c407:-:*:*:*:*:*:*:*"
+  ],
+  "109": [
+    "cpe:2.3:a:dataflowx:datadiodex:-:*:*:*:*:*:*:*"
+  ],
+  "35": [
+    "cpe:2.3:h:samsung:multixpress_sl-k4250_ss031a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_sl-k4250_ss030a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_sl-k4350_ss033a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_sl-k4300_ss032a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_sl-k7500_ss040a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_sl-k7500_ss039a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_sl-k7600_ss041a:-:*:*:*:*:*:*:*"
+  ],
+  "139": [
+    "cpe:2.3:a:primx:cryhod:2021.2:*:*:*:*:*:*:*"
+  ],
+  "14": [],
+  "175": [
+    "cpe:2.3:h:konicaminolta:bizhub_558e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_458e:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_658e:-:*:*:*:*:*:*:*"
+  ],
+  "150": [
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:*:*:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:*:-:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:-:-:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:*:sap:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:-:sap:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:business_critical_linux:-:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:ltss:*:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp2:*:*:ltss:-:*:*"
+  ],
+  "102": [
+    "cpe:2.3:h:samsung:ss352c:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:ss384c:-:*:*:*:*:*:*:*"
+  ],
+  "242": [],
+  "223": [
+    "cpe:2.3:h:huawei:ne5000e:-:*:*:*:*:*:*:*"
+  ],
+  "260": [
+    "cpe:2.3:h:fujixerox:apeosport_c5570:-:*:*:*:*:*:*:*"
+  ],
+  "58": [
+    "cpe:2.3:h:hp:color_laserjet_enterprise_m652:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_enterprise_m607:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:laserjet_managed_e60055:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:pagewide_enterprise_color_556:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:hp:pagewide_managed_color_e55650:-:*:*:*:*:*:*:*"
+  ],
+  "56": [],
+  "49": [
+    "cpe:2.3:h:samsung:multixpress_scx-8240_sw185a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_scx-8240_ss022a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_scx-8240_st717a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:multixpress_scx-8230_ss021a:-:*:*:*:*:*:*:*"
+  ],
+  "186": [
+    "cpe:2.3:h:xerox:workcentre_5755:-:*:*:*:*:*:*:*"
+  ],
+  "119": [
+    "cpe:2.3:a:sigstore:cosign:-:*:*:*:*:*:*:*"
+  ],
+  "163": [
+    "cpe:2.3:h:konicaminolta:bizhub_c3350i:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:konicaminolta:bizhub_c4050i:-:*:*:*:*:*:*:*"
+  ],
+  "59": [],
+  "272": [
+    "cpe:2.3:h:st:st33tphf2ei2c:-:*:*:*:*:*:*:*"
+  ],
+  "100": [
+    "cpe:2.3:h:gemalto:safenet_luna_pcie:-:*:*:*:*:*:*:*"
+  ],
+  "3": [
+    "cpe:2.3:h:sharp:mx-m6070:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-m5070:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-m4070:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-m3070:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-m3570:-:*:*:*:*:*:*:*"
+  ],
+  "110": [
+    "cpe:2.3:h:ricoh:im_c300:-:*:*:*:*:*:*:*"
+  ],
+  "6": [
+    "cpe:2.3:a:mcafee:network_security_platform:*:*:*:*:*:*:*:*"
+  ],
+  "207": [
+    "cpe:2.3:a:cisco:secure_network_analytics:7.4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cisco:secure_network_analytics:7.4.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cisco:secure_network_analytics:7.4.2:*:*:*:*:*:*:*"
+  ],
+  "13": [
+    "cpe:2.3:o:microsoft:windows_server_2022:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:microsoft:windows_11:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:microsoft:windows:-:*:*:*:*:*:*:*"
+  ],
+  "22": [
+    "cpe:2.3:h:sharp:mx-6070n:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-3570n:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-3070v:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-3070n:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-4070n:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:sharp:mx-5070n:-:*:*:*:*:*:*:*"
+  ],
+  "115": [
+    "cpe:2.3:o:hpe:arubaos:-:*:*:*:*:*:*:*"
+  ],
+  "52": [],
+  "212": [],
+  "215": [
+    "cpe:2.3:a:bigswitch:big_cloud_fabric:4.7:*:*:*:*:*:*:*"
+  ],
+  "85": [
+    "cpe:2.3:a:ibm:racf:-:*:*:*:*:*:*:*"
+  ],
+  "29": [],
+  "105": [],
+  "48": [
+    "cpe:2.3:h:oberthur:id-one_cosmo:*:*:*:*:*:*:*:*"
+  ],
+  "239": [
+    "cpe:2.3:a:redhat:jboss_enterprise_application_platform:6.2.2:*:*:*:*:*:*:*"
+  ],
+  "93": [
+    "cpe:2.3:a:dell:emc_unity_operating_environment:-:*:*:*:*:*:*:*"
+  ],
+  "74": [
+    "cpe:2.3:h:enterasys:dragon:-:*:*:*:*:*:*:*"
+  ],
+  "149": [
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp4:*:*:*:*:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp4:*:*:-:-:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp4:*:*:-:sap:*:*",
+    "cpe:2.3:o:suse:linux_enterprise_server:15:sp4:*:*:ltss:-:*:*"
+  ],
+  "106": [
+    "cpe:2.3:o:microsoft:windows_server_2008:-:-:*:*:datacenter:*:x86:*",
+    "cpe:2.3:o:microsoft:windows_server_2008:-:-:*:*:datacenter:*:x64:*",
+    "cpe:2.3:o:microsoft:windows_server_2008:-:-:*:*:standard:*:x86:*",
+    "cpe:2.3:o:microsoft:windows_vista:-:-:*:*:enterprise:*:x86:*",
+    "cpe:2.3:o:microsoft:windows_server_2008:-:-:*:*:enterprise:*:x86:*"
+  ],
+  "16": [
+    "cpe:2.3:o:fujifilm:apeosport-iv_4070_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "116": [
+    "cpe:2.3:o:brocade:fabric_os:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:brocade:fabric_operating_system:-:*:*:*:*:*:*:*"
+  ],
+  "166": [
+    "cpe:2.3:o:hp:laserjet_enterprise_m4555_mfp_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m506_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m604_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m605_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m606_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m607_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m608_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m609_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_m806_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_mfp_m527_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:hp:laserjet_enterprise_mfp_m630_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "135": [
+    "cpe:2.3:a:ca:messaging:1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca:etrust_admin:8.0:*:*:*:*:*:*:*"
+  ],
+  "209": [
+    "cpe:2.3:a:fortinet:fortiwlm:8.5.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortiwlm:8.5.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortiwlm:8.5.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:fortinet:fortiwlm:8.5.5:*:*:*:*:*:*:*"
+  ],
+  "19": [
+    "cpe:2.3:o:ibm:z\\/os:2.2.0:*:*:*:*:*:*:*"
+  ],
+  "98": [
+    "cpe:2.3:o:cisco:ios:15.1:*:*:*:*:*:*:*"
+  ],
+  "114": [
+    "cpe:2.3:a:ivanti:security_controls:-:*:*:*:*:*:*:*"
+  ],
+  "193": [],
+  "31": [
+    "cpe:2.3:a:vmware:vcloud_networking_and_security_edge:*:*:*:*:*:*:*:*"
+  ],
+  "47": [],
+  "46": [
+    "cpe:2.3:h:paloaltonetworks:pa-800:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:paloaltonetworks:pa-5200:-:*:*:*:*:*:*:*",
+    "cpe:2.3:a:paloaltonetworks:vm-series_firewall:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:paloaltonetworks:pa-7000:-:*:*:*:*:*:*:*"
+  ],
+  "121": [
+    "cpe:2.3:a:pulsesecure:pulse_connect_secure:9.1:-:*:*:*:*:*:*"
+  ],
+  "178": [
+    "cpe:2.3:h:lexmark:cs921:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:cs923:-:*:*:*:*:*:*:*"
+  ],
+  "181": [
+    "cpe:2.3:h:ricoh:mp_501:-:*:*:*:*:*:*:*"
+  ],
+  "237": [],
+  "194": [],
+  "255": [
+    "cpe:2.3:a:rapid7:nexpose:-:*:*:*:*:*:*:*"
+  ],
+  "80": [
+    "cpe:2.3:a:trendmicro:deep_security:-:*:*:*:*:*:*:*"
+  ],
+  "146": [
+    "cpe:2.3:o:cisco:ios_xe:17.12.1:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1w:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1x:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1y:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.1z3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.2a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.3a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5a:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5b:*:*:*:*:*:*:*",
+    "cpe:2.3:o:cisco:ios_xe:17.12.5c:*:*:*:*:*:*:*"
+  ],
+  "21": [
+    "cpe:2.3:a:ibm:z\\/vm:-:*:*:*:*:*:*:*"
+  ],
+  "30": [
+    "cpe:2.3:o:versa-networks:versa_operating_system:-:*:*:*:*:*:*:*"
+  ],
+  "210": [
+    "cpe:2.3:a:purestorage:purity\\/\\/fa:5.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:purestorage:purity\\/\\/fa:5.3.17:*:*:*:*:*:*:*",
+    "cpe:2.3:a:purestorage:purity\\/\\/fa:5.3.18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:purestorage:purity\\/\\/fa:5.3.19:*:*:*:*:*:*:*",
+    "cpe:2.3:a:purestorage:purity\\/\\/fa:5.3.20:*:*:*:*:*:*:*",
+    "cpe:2.3:a:purestorage:purity\\/\\/fa:5.3.21:*:*:*:*:*:*:*"
+  ],
+  "171": [
+    "cpe:2.3:h:lexmark:ms822:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:ms826:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:ms822_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:ms826_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "228": [
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.10:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.11:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.12:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.13:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.14:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.1:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.25:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.3:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.4:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.5:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.6:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.7:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.8:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1.9:*:*:*:*:*:*:*",
+    "cpe:2.3:o:arubanetworks:arubaos:6.3.1:*:*:*:*:*:*:*"
+  ],
+  "76": [
+    "cpe:2.3:a:mcafee:epolicy_orchestrator:3.6.1:*:*:*:*:*:*:*"
+  ],
+  "54": [],
+  "91": [
+    "cpe:2.3:a:ibm:z\\/vm:-:*:*:*:*:*:*:*"
+  ],
+  "118": [],
+  "44": [],
+  "240": [
+    "cpe:2.3:o:suse:linux_enterprise_server:9:*:*:*:*:*:*:*"
+  ],
+  "192": [
+    "cpe:2.3:h:ricoh:mp_c2003:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:ricoh:mp_c2503:-:*:*:*:*:*:*:*"
+  ],
+  "7": [
+    "cpe:2.3:a:arubanetworks:clearpass_policy_manager:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:arubanetworks:clearpass_policy_manager:-:*:*:*:*:*:*:*"
+  ],
+  "274": [
+    "cpe:2.3:h:st:st33tphf2espi:-:*:*:*:*:*:*:*"
+  ],
+  "96": [
+    "cpe:2.3:o:cisco:ios_xr:7.11:*:*:*:*:*:-:*"
+  ],
+  "259": [],
+  "143": [],
+  "43": [
+    "cpe:2.3:h:samsung:scx-5737_sw045a:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:samsung:scx-5737_sw046a:-:*:*:*:*:*:*:*"
+  ],
+  "172": [
+    "cpe:2.3:h:lexmark:mx421:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx521:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx622:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:mx421_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:mx521_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "169": [
+    "cpe:2.3:h:lexmark:mx721:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx722:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:lexmark:mx725:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:mx721_firmware:-:*:*:*:*:*:*:*",
+    "cpe:2.3:o:lexmark:mx722_firmware:-:*:*:*:*:*:*:*"
+  ],
+  "41": [
+    "cpe:2.3:h:juniper:srx380:-:*:*:*:*:*:*:*"
+  ],
+  "156": [
+    "cpe:2.3:o:samsung:android:13.0:-:*:*:*:*:*:*"
+  ],
+  "88": [],
+  "208": [
+    "cpe:2.3:o:cisco:ios_xe:17.3:*:*:*:*:*:*:*"
+  ],
+  "231": [
+    "cpe:2.3:h:cisco:1240:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:cisco:4400_wireless_lan_controller:-:*:*:*:*:*:*:*",
+    "cpe:2.3:h:cisco:catalyst_6500:-:*:*:*:*:*:*:*"
+  ]
+}
