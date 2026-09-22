@@ -1,48 +1,3 @@
-"""
-groundtruth_dictionary_diff_sample.py
---------------------------------------
-Yakup's request, scoped to the 257-device test sample
-(Data/merged_preliminary_gt.json) rather than the full ~57k-entry mined
-ground-truth dataset. Answers TWO related but distinct questions, both
-computed purely from groundtruth_dataset.json + the local CPE
-dictionary -- NEITHER reads matched_cpes.json or depends in any way on
-our own pipeline's predictions:
-
-1) STRING-level (find_discrepancies_for_sample): across every
-   ground-truth entry for our sample devices, which individual CPE
-   strings (hardware or firmware/OS) are absent from the dictionary?
-   One device can have several ground-truth firmware entries, so this
-   is a count of distinct missing CPE strings, not devices.
-
-2) DEVICE-level (device_coverage_ceiling_for_sample): for each sample
-   device with ground truth, does AT LEAST ONE of its ground-truth
-   firmware/OS CPEs exist in the dictionary at all? This is a
-   theoretical ceiling -- the most devices ANY matcher could possibly
-   succeed on against this dictionary snapshot, regardless of how good
-   its guessing rules are.
-
-These two numbers will not match each other, and neither is expected
-to match the 167/34 matching-pipeline split reported separately in
-test_results.json (which DOES depend on our own predictions, via
-matched_cpes.json) -- that is a third, different question this file
-deliberately does not re-answer, to avoid duplicating logic that
-already lives in evaluate_matches.py.
-
-WILDCARD VERSION HANDLING (matches evaluate_matches.py's Section 5
-fix): a ground-truth CPE with version '*' means "any version applies",
-not the literal character '*'. No real CPE Dictionary entry is ever
-stored with a literal '*' in its version field -- entries always carry
-a concrete version. Checking a '*'-version ground-truth CPE against
-the dictionary's exact-string index would therefore almost always
-report it as "missing", even when the underlying product genuinely
-exists in the dictionary under many concrete versions. When a
-ground-truth CPE's version is '*', this checks whether ANY
-concrete-versioned entry exists for that vendor+product instead of
-the literal string.
-
-THIS FILE IS FULLY SELF-CONTAINED. It does not import from any other
-diff module, and does not read matched_cpes.json.
-"""
 from __future__ import annotations
 import json
 import logging
@@ -64,9 +19,7 @@ class Discrepancy:
 
 
 def _cpe_covered_by_dictionary(cpe_string: str, local_dict: LocalCpeDictionary) -> bool:
-    """True if this exact CPE exists in the dictionary, OR -- when its
-    version field is the wildcard '*' -- if ANY concrete-versioned
-    entry exists for the same vendor+product. See module docstring."""
+   
     parsed = parse_cpe23(cpe_string)
     if parsed is None:
         return False
@@ -78,38 +31,7 @@ def _cpe_covered_by_dictionary(cpe_string: str, local_dict: LocalCpeDictionary) 
 def device_coverage_ceiling_for_sample(
     groundtruth_raw: list, sample_hw_cpes: List[str], local_dict: LocalCpeDictionary,
 ) -> dict:
-    """A SECOND, genuinely different question from find_discrepancies_for_sample
-    above -- and, deliberately, one that never reads matched_cpes.json or
-    depends on our own pipeline's predictions in any way. Computed purely
-    from groundtruth_dataset.json + the local dictionary.
-
-    find_discrepancies_for_sample answers a STRING-level question: across
-    all 201 devices, how many distinct ground-truth CPE strings are
-    missing from the dictionary (42)? A single device can have several
-    ground-truth firmware entries, so that count is not directly
-    comparable to a per-device figure.
-
-    This function instead answers a DEVICE-level question: for each of
-    the 201 devices with ground truth, does AT LEAST ONE of its
-    ground-truth firmware/OS CPEs exist in the dictionary at all? This is
-    a theoretical CEILING -- the maximum number of devices ANY matcher,
-    no matter how good its guessing rules are, could possibly succeed on
-    against this specific dictionary snapshot, since a match is only
-    possible if the true answer is present in the dictionary to begin
-    with. It says nothing about whether our own matching rules actually
-    found it -- that is a separate question, already answered by
-    test_results.json, and deliberately not recomputed here.
-
-    Returns a dict with:
-    - devices_with_groundtruth: same 201 as elsewhere
-    - devices_dictionary_coverable: how many of those have at least one
-      ground-truth firmware/OS CPE present in the dictionary (wildcard-
-      version-aware, see _cpe_covered_by_dictionary)
-    - devices_dictionary_uncoverable: the rest -- devices where NONE of
-      the ground-truth firmware/OS CPEs exist in the dictionary, meaning
-      no matcher could ever have found a correct answer for them
-    - uncoverable_hw_cpes: that uncoverable list, for inspection
-    """
+   
     sample_set = set(sample_hw_cpes)
     gt_by_hw = {e["hardware_cpe"]: e for e in groundtruth_raw if e.get("hardware_cpe")}
 
@@ -133,19 +55,7 @@ def device_coverage_ceiling_for_sample(
 def find_discrepancies_for_sample(
     groundtruth_raw: list, sample_hw_cpes: List[str], local_dict: LocalCpeDictionary,
 ) -> Tuple[List[Discrepancy], List[str], int]:
-    """Returns (discrepancies, sample_hw_with_no_groundtruth, sample_hw_with_groundtruth_count).
-
-    - discrepancies: every CPE (hardware or firmware/OS) tied to a
-      sample hardware CPE's ground-truth entry that is NOT covered by
-      the dictionary (see _cpe_covered_by_dictionary).
-    - sample_hw_with_no_groundtruth: sample hardware CPEs with no
-      ground-truth entry at all -- nothing to check for them, listed
-      separately rather than silently dropped so the full 257 is
-      accounted for.
-    - sample_hw_with_groundtruth_count: len(sample_hw_cpes) minus the
-      above -- see module docstring for why this matches
-      evaluate_matches.py's hardware_cpes_with_groundtruth.
-    """
+   
     sample_set = set(sample_hw_cpes)
     gt_by_hw = {e["hardware_cpe"]: e for e in groundtruth_raw if e.get("hardware_cpe")}
 
@@ -229,9 +139,7 @@ def write_discrepancies_json(discrepancies: List[Discrepancy], output_path: str,
 def write_discrepancies_xlsx(discrepancies: List[Discrepancy], output_path: str,
                               sample_hw_with_no_groundtruth: List[str],
                               device_coverage_ceiling: dict = None) -> bool:
-    """Returns True if written, False if openpyxl isn't installed -- the
-    caller should treat that as non-fatal, since the JSON output is
-    always written regardless and covers the same data."""
+   
     try:
         import openpyxl
         from openpyxl.styles import Font
